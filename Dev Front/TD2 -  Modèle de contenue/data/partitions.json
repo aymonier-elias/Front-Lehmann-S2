@@ -1,0 +1,56 @@
+{
+    "918": {
+        "id": 918,
+        "numero": 0,
+        "formsemestre_id": 446,
+        "partition_name": "Parcours",
+        "partition_id": 918,
+        "groups": {
+            "1534": {
+                "id": 1534,
+                "partition_id": 918,
+                "numero": 0,
+                "group_name": "Cr\u00e9a"
+            },
+            "1535": {
+                "id": 1535,
+                "partition_id": 918,
+                "numero": 2,
+                "group_name": "Strat-UX"
+            },
+            "1536": {
+                "id": 1536,
+                "partition_id": 918,
+                "numero": 1,
+                "group_name": "DWeb-DI"
+            }
+        }
+    },
+    "919": {
+        "id": 919,
+        "numero": 1,
+        "formsemestre_id": 446,
+        "partition_name": "TP",
+        "partition_id": 919,
+        "groups": {
+            "1537": {
+                "id": 1537,
+                "partition_id": 919,
+                "numero": 0,
+                "group_name": "TP11 - CN"
+            },
+            "1539": {
+                "id": 1539,
+                "partition_id": 919,
+                "numero": 1,
+                "group_name": "TP21 - Strat"
+            },
+            "1538": {
+                "id": 1538,
+                "partition_id": 919,
+                "numero": 2,
+                "group_name": "TP12 - Dev"
+            }
+        }
+    }
+}

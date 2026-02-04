@@ -1,0 +1,372 @@
+[
+	{
+		"etudid": 3966,
+		"civilite_str": "M.",
+		"nom_disp": "WEIMAR",
+		"prenom": "MAXIME",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3944,
+		"civilite_str": "M.",
+		"nom_disp": "LOZAHIC",
+		"prenom": "LEON",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3920,
+		"civilite_str": "Mme",
+		"nom_disp": "BECKRICH",
+		"prenom": "ZO\u00c9",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3936,
+		"civilite_str": "Mme",
+		"nom_disp": "GRUNEWALD",
+		"prenom": "PAULINE",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3967,
+		"civilite_str": "M.",
+		"nom_disp": "WISHAUPT",
+		"prenom": "LUCAS",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3923,
+		"civilite_str": "Mme",
+		"nom_disp": "BOUFALAAS",
+		"prenom": "ZINA",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3934,
+		"civilite_str": "Mme",
+		"nom_disp": "GERHARD",
+		"prenom": "C\u00c9CILE",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3939,
+		"civilite_str": "M.",
+		"nom_disp": "KALBE",
+		"prenom": "ANTHONY",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3932,
+		"civilite_str": "Mme",
+		"nom_disp": "GABET",
+		"prenom": "ZO\u00c9",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3963,
+		"civilite_str": "M.",
+		"nom_disp": "SCHWEITZER",
+		"prenom": "MATHIS",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 4050,
+		"civilite_str": "M.",
+		"nom_disp": "TRONCHET",
+		"prenom": "BENJAMIN",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3946,
+		"civilite_str": "Mme",
+		"nom_disp": "MANG",
+		"prenom": "EVA",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3933,
+		"civilite_str": "Mme",
+		"nom_disp": "GEBELE",
+		"prenom": "CHARLINE",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3959,
+		"civilite_str": "M.",
+		"nom_disp": "ROUX",
+		"prenom": "MARTIN",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3956,
+		"civilite_str": "M.",
+		"nom_disp": "RENCK",
+		"prenom": "THOMAS",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 5217,
+		"civilite_str": "M.",
+		"nom_disp": "BENGAH",
+		"prenom": "TAREQ",
+		"partitions": {
+			"919": 1539,
+			"918": 1535
+		}
+	},
+	{
+		"etudid": 3940,
+		"civilite_str": "M.",
+		"nom_disp": "KLIEM",
+		"prenom": "MATHIAS",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3938,
+		"civilite_str": "M.",
+		"nom_disp": "ISMEURT",
+		"prenom": "DAVID",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3958,
+		"civilite_str": "Mme",
+		"nom_disp": "ROTH",
+		"prenom": "JULIE",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3955,
+		"civilite_str": "M.",
+		"nom_disp": "REISET",
+		"prenom": "LOUIS",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3941,
+		"civilite_str": "M.",
+		"nom_disp": "KOCH",
+		"prenom": "BENJAMIN",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3917,
+		"civilite_str": "Mme",
+		"nom_disp": "AAZAMI",
+		"prenom": "ASSIA",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3948,
+		"civilite_str": "M.",
+		"nom_disp": "METZ",
+		"prenom": "GUILLAUME",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3928,
+		"civilite_str": "M.",
+		"nom_disp": "ELVIRA",
+		"prenom": "DI\u00c9GO",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3954,
+		"civilite_str": "M.",
+		"nom_disp": "PENSERINI",
+		"prenom": "DAMIEN",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3961,
+		"civilite_str": "Mme",
+		"nom_disp": "SCHMELTZ",
+		"prenom": "AGATHE",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 4026,
+		"civilite_str": "M.",
+		"nom_disp": "ERDOGAN",
+		"prenom": "YASIN",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3926,
+		"civilite_str": "M.",
+		"nom_disp": "DEL GRANDE",
+		"prenom": "THIBAULT",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3953,
+		"civilite_str": "M.",
+		"nom_disp": "PACCALET",
+		"prenom": "SAMY",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3924,
+		"civilite_str": "M.",
+		"nom_disp": "BRAS",
+		"prenom": "CELESTIN",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 4472,
+		"civilite_str": "M.",
+		"nom_disp": "JACQ",
+		"prenom": "LORENZO",
+		"partitions": {
+			"918": 1536,
+			"919": 1538
+		}
+	},
+	{
+		"etudid": 3931,
+		"civilite_str": "M.",
+		"nom_disp": "FORET",
+		"prenom": "NICOLAS",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 4025,
+		"civilite_str": "M.",
+		"nom_disp": "CRETIN",
+		"prenom": "TH\u00c9O",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	},
+	{
+		"etudid": 3935,
+		"civilite_str": "M.",
+		"nom_disp": "GOSSOT",
+		"prenom": "ROMAIN",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3952,
+		"civilite_str": "M.",
+		"nom_disp": "MURA",
+		"prenom": "LILIAN",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3929,
+		"civilite_str": "M.",
+		"nom_disp": "EMERIAU",
+		"prenom": "CAN",
+		"partitions": {
+			"918": 1535,
+			"919": 1539
+		}
+	},
+	{
+		"etudid": 3951,
+		"civilite_str": "M.",
+		"nom_disp": "MUNOZ",
+		"prenom": "T\u00c9O",
+		"partitions": {
+			"918": 1534,
+			"919": 1537
+		}
+	}
+]
