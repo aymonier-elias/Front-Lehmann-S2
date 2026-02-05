@@ -6,10 +6,10 @@ h1 {
     color: #f2f2f2;
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 45%;
 }
 
-.scene{
+/* .scene{
     z-index: -1;
     opacity: 0.5;
-}
+} */
