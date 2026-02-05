@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Mon site avec un cube qui bouge il est trop stylé</h1>
+
+    <a-scene class="scene">
+        <a-entity camera position="0 0 0"></a-entity>
+        <a-box class="box" position="0 0 -2" rotation="0 0 0" color="#4CC3D9" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 10000" ></a-box>
+    </a-scene>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
