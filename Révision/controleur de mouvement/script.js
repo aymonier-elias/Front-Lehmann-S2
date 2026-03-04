@@ -6,7 +6,10 @@ let H = window.innerHeight;
 c.width = W;
 c.height = H;
 
-let left = false, right = false, up = false, down = false;
+let left = false,
+  right = false,
+  up = false,
+  down = false;
 
 // Ecouteur d'événement
 window.addEventListener("keydown", appui);
@@ -17,9 +20,19 @@ let P = {
   x: W / 2 - 25,
   y: H / 2 - 25,
   vx: 0,
-  vy: 0
+  vy: 0,
 };
 
+let listPdeco = [];
+for (let i = 0; i < 50; i++) {
+  let Pdeco = {
+    x: Math.random() * W,
+    y: Math.random() * H,
+    vx: Math.random() - 0.5,
+    vy: Math.random() - 0.5,
+  };
+  listPdeco.push(Pdeco);
+}
 const POUSSEE = 0.4;
 const FROTTEMENT = 0.92;
 const VITESSEMAX = 8;
@@ -73,7 +86,7 @@ function deplacement() {
 
   // Multipli par le frotment comme >1 diminu
   P.vx *= FROTTEMENT;
-  P.vy *= FROTTEMENT; 
+  P.vy *= FROTTEMENT;
 
   if (P.vx > VITESSEMAX) P.vx = VITESSEMAX;
   if (P.vx < -VITESSEMAX) P.vx = -VITESSEMAX;
@@ -82,15 +95,65 @@ function deplacement() {
 
   P.x += P.vx;
   P.y += P.vy;
+
+  if (P.x < 0) {
+    P.x = 0;
+    P.vx = -P.vx;
+  }
+  if (P.x + 50 > W) {
+    P.x = W - 50;
+    P.vx = -P.vx;
+  }
+  if (P.y < 0) {
+    P.y = 0;
+    P.vy = -P.vy;
+  }
+  if (P.y + 50 > H) {
+    P.y = H - 50;
+    P.vy = -P.vy;
+  }
+}
+
+function deplacementPdeco() {
+  listPdeco.forEach((Pdeco) => {
+    Pdeco.x += Pdeco.vx;
+    Pdeco.y += Pdeco.vy;
+
+    if (Pdeco.x < 0) {
+      Pdeco.x = 0;
+      Pdeco.vx = -Pdeco.vx;
+    }
+    if (Pdeco.x + 10 > W) {
+      Pdeco.x = W - 10;
+      Pdeco.vx = -Pdeco.vx;
+    }
+    if (Pdeco.y < 0) {
+      Pdeco.y = 0;
+      Pdeco.vy = -Pdeco.vy;
+    }
+    if (Pdeco.y + 10 > H) {
+      Pdeco.y = H - 10;
+      Pdeco.vy = -Pdeco.vy;
+    }
+  });
 }
 
 function afficher() {
   ctx.clearRect(0, 0, W, H);
+  listPdeco.forEach((Pdeco) => {
+    ctx.fillStyle = "#0095DD";
+    ctx.beginPath();
+    ctx.arc(Pdeco.x, Pdeco.y, 5, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.closePath();
+  });
+  ctx.fillStyle = "#000";
   ctx.fillRect(P.x, P.y, 50, 50);
 }
 
 function boucle() {
   deplacement();
+  deplacementPdeco();
   afficher();
   requestAnimationFrame(boucle);
 }
