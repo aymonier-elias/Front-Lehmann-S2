@@ -24,7 +24,7 @@ let P = {
 };
 
 let listPdeco = [];
-for (let i = 0; i < 50; i++) {
+for (let i = 0; i < 200; i++) {
   let Pdeco = {
     x: Math.random() * W,
     y: Math.random() * H,
@@ -36,6 +36,7 @@ for (let i = 0; i < 50; i++) {
 const POUSSEE = 0.4;
 const FROTTEMENT = 0.92;
 const VITESSEMAX = 8;
+const DISTANCE_MAX_LIGNE = 120; // distance max pour tracer une ligne entre deux Pdeco
 
 boucle();
 
@@ -140,6 +141,26 @@ function deplacementPdeco() {
 
 function afficher() {
   ctx.clearRect(0, 0, W, H);
+
+  // Lignes entre Pdeco proches (triangles quand 3 billes sont mutuellement proches)
+  for (let i = 0; i < listPdeco.length; i++) {
+    for (let j = i + 1; j < listPdeco.length; j++) {
+      let a = listPdeco[i];
+      let b = listPdeco[j];
+      let dx = b.x - a.x;
+      let dy = b.y - a.y;
+      let dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist <= DISTANCE_MAX_LIGNE) {
+        ctx.strokeStyle = "rgba(0, 149, 221, " + (1 - dist / DISTANCE_MAX_LIGNE) + ")";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(b.x, b.y);
+        ctx.stroke();
+      }
+    }
+  }
+
   listPdeco.forEach((Pdeco) => {
     ctx.fillStyle = "#0095DD";
     ctx.beginPath();
